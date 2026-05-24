@@ -77,7 +77,7 @@ npm run dev
 ```
 
 - **Frontend Server**: Runs on [http://localhost:5173](http://localhost:5173)
-- **Backend API**: Runs on [http://localhost:5000](http://localhost:5000)
+- **Backend API**: Production API hosted on [https://bda-crm-api.onrender.com](https://bda-crm-api.onrender.com)
 
 ---
 
@@ -107,10 +107,10 @@ The Express server exposes the following endpoints:
 
 - **Fetch all leads**:
   ```bash
-  curl http://localhost:5000/leads
+  curl https://bda-crm-api.onrender.com/leads
   ```
 
 - **Add a new lead**:
   ```bash
-  curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Test Lead\",\"email\":\"test@example.com\",\"phone\":\"+91 99999 88888\",\"status\":\"New\"}" http://localhost:5000/add-lead
+  curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Test Lead\",\"email\":\"test@example.com\",\"phone\":\"+91 99999 88888\",\"status\":\"New\"}" https://bda-crm-api.onrender.com/add-lead
   ```

@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
 import Leads from './components/Leads';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://bda-crm-api.onrender.com';
 
 function App() {
   const [user, setUser] = useState(() => {
