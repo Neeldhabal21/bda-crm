@@ -1,0 +1,34 @@
+[
+  {
+    "id": "lead_1",
+    "name": "Arjun Sharma",
+    "email": "arjun.sharma@example.com",
+    "phone": "+91 98765 43210",
+    "status": "New",
+    "createdAt": "2026-05-24T06:30:00.000Z"
+  },
+  {
+    "id": "lead_2",
+    "name": "Priya Patel",
+    "email": "priya.patel@example.com",
+    "phone": "+91 87654 32109",
+    "status": "Contacted",
+    "createdAt": "2026-05-24T07:15:00.000Z"
+  },
+  {
+    "id": "lead_3",
+    "name": "Rahul Verma",
+    "email": "rahul.verma@example.com",
+    "phone": "+91 76543 21098",
+    "status": "Converted",
+    "createdAt": "2026-05-24T08:00:00.000Z"
+  },
+  {
+    "id": "lead_1779613445414",
+    "name": "Purnendu",
+    "email": "example@pur.com",
+    "phone": "7865652251",
+    "status": "New",
+    "createdAt": "2026-05-24T09:04:05.414Z"
+  }
+]
